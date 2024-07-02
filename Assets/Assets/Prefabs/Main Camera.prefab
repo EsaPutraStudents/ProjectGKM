@@ -109,5 +109,5 @@ MonoBehaviour:
   mouseSensitivity: 5
   target: {fileID: 0}
   dstFromTarget: 30
-  pitchMinMax: {x: -40, y: 85}
+  pitchMinMax: {x: 45, y: 70}
   rotationSmoothTime: 0.12

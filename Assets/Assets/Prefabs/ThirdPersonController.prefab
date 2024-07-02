@@ -733,7 +733,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4325993623030906506}
-  - component: {fileID: 2495497558266310086}
   - component: {fileID: 5660582689719329346}
   - component: {fileID: 3905033724340667174}
   - component: {fileID: 4243279130646831823}
@@ -762,24 +761,6 @@ Transform:
   - {fileID: 647219028661106384}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
---- !u!114 &2495497558266310086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2274757480563636228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19c789670a80b704eba4dfebed94a111, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  header: 'Full Version Features:'
-  comment: "- Generic Action Interaction System\n- Advanced StepOffset & GroundSnaper\n-
-    Climb Ladder \n- Health & Stamina With UI\n- Footstep System\n- Ragdoll System
-    \n- Slide Slopes\n- Powerful Events\n- Debug Window\n- Crouch\n- Roll\n- And
-    much more..."
-  inEdit: 0
 --- !u!95 &5660582689719329346
 Animator:
   serializedVersion: 5
@@ -842,7 +823,7 @@ MonoBehaviour:
   jumpHeight: 10
   airSpeed: 12
   airSmooth: 6
-  extraGravity: -6
+  extraGravity: -18
   limitFallVelocity: -15
   groundLayer:
     serializedVersion: 2
