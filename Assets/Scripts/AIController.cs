@@ -102,25 +102,12 @@ public class AIController : MonoBehaviour
     {
         if (m_PlayerNear)
         {
-            if(m_TimeToRotate <= 0)
-            {
-                Move(speedWalk);
-                LookingPlayer(playerLastPosition);
-            }
-            else
-            {
-                Stop();
-                m_TimeToRotate -= Time.deltaTime;
-            }
-        }
-        else
-        {
             m_PlayerNear = false;
             playerLastPosition = Vector3.zero;
             navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);
             if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
             {
-                if(m_WaitTime <= 0)
+                if (m_WaitTime <= 0)
                 {
                     NextPoint();
                     Move(speedWalk);
@@ -132,6 +119,20 @@ public class AIController : MonoBehaviour
                     m_WaitTime -= Time.deltaTime;
                 }
             }
+        }
+        else
+        {
+            if (m_TimeToRotate <= 0)
+            {
+                Move(speedWalk);
+                LookingPlayer(playerLastPosition);
+            }
+            else
+            {
+                Stop();
+                m_TimeToRotate -= Time.deltaTime;
+            }
+            
         }
     }
 
