@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.InputSystem.XR.Haptics;
 
 public class ThirdPersonController : MonoBehaviour
@@ -17,6 +18,7 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float maxSpeed = 10f;
     private Vector3 forceDirection = Vector3.zero;
+    public GameObject sword;
 
     [SerializeField]
     private Camera playerCamera;
@@ -106,10 +108,27 @@ public class ThirdPersonController : MonoBehaviour
             return false;        
     }
 
+
+
     private void DoAttack(InputAction.CallbackContext obj)
     {
         animator.SetTrigger("attack");
+        sword.SetActive(true);
+        StartCoroutine(SwordVisible());       
     }
+
+    IEnumerator SwordVisible()
+    {
+        yield return new WaitForSeconds(1f);
+        sword.SetActive(false);
+    }
+
+    //private IEnumerator Attack()
+    //{
+    //    sword.SetActive(true);       
+    //    yield return new WaitForSeconds(0.5f);  
+    //    sword.SetActive(false);
+    //}
 }
  
 
