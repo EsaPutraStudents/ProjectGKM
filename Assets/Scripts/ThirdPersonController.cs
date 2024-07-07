@@ -119,7 +119,7 @@ public class ThirdPersonController : MonoBehaviour
 
     IEnumerator SwordVisible()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.75f);
         sword.SetActive(false);
     }
 
