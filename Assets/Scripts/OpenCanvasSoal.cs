@@ -7,6 +7,7 @@ public class OpenCanvasSoal : MonoBehaviour
     public GameObject canvasSoal;
     private void OnTriggerEnter(Collider collision)
     {
+        UnlockMouse();
         if (collision.gameObject.tag == "Player")
         {
             if (canvasSoal != null)
@@ -15,5 +16,12 @@ public class OpenCanvasSoal : MonoBehaviour
                 Time.timeScale = 0;
             }
         }
+    }
+
+
+    void UnlockMouse()
+    {
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        UnityEngine.Cursor.visible = true;
     }
 }

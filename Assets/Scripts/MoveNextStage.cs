@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MoveNextStage : MonoBehaviour
-{
+{    
     public string sceneName;
     void OnTriggerEnter(Collider collision)
     {
@@ -13,7 +13,7 @@ public class MoveNextStage : MonoBehaviour
         {
 
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
-            Time.timeScale = 1;
+            Time.timeScale = 1;           
             
         }
     }

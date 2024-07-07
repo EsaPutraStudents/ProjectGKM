@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Material Base Color
-    second: {fileID: 2800000, guid: 403b795957e1f2b47b0d04933668bacb, type: 3}
+    second: {fileID: 2800000, guid: bcda9cbbf3dd5854b9a49621c0db8087, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

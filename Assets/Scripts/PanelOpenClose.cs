@@ -15,4 +15,16 @@ public class PanelOpenClose : MonoBehaviour
             Panel.SetActive(!isActive);
         }
     }
+
+    public void TimeActive()
+    {
+        Time.timeScale = 1;
+        LockMouse();
+    }
+
+    public void LockMouse()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
 }

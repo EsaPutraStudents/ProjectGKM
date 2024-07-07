@@ -8,6 +8,7 @@ using UnityEngine.InputSystem.XR.Haptics;
 
 public class ThirdPersonController : MonoBehaviour
 {
+    AudioManager audioManager;
    //input fields
     private PlayerControls playerControls;
     private InputAction move;
@@ -23,6 +24,7 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField]
     private Camera playerCamera;
     private Animator animator;
+    public int damage = 20;
 
     private void Awake()
     {
@@ -96,7 +98,7 @@ public class ThirdPersonController : MonoBehaviour
         if (IsGrounded())
         {
             forceDirection += Vector3.up * jumpForce;
-        }
+        }        
     }
 
     private bool IsGrounded()
@@ -112,13 +114,15 @@ public class ThirdPersonController : MonoBehaviour
 
     private void DoAttack(InputAction.CallbackContext obj)
     {
-        animator.SetTrigger("attack");
+        animator.SetTrigger("attack");        
         sword.SetActive(true);
+        
         StartCoroutine(SwordVisible());       
     }
 
     IEnumerator SwordVisible()
     {
+                                                                
         yield return new WaitForSeconds(0.75f);
         sword.SetActive(false);
     }
