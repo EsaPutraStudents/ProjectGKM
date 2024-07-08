@@ -7,15 +7,12 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource SFXSource;
 
     [Header("----------Audio Clip----------")]
-    public AudioClip background;    
-    //public AudioClip backgroundOverworld;    
-    //public AudioClip backgroundCave;    
+    public AudioClip background;           
     public AudioClip enemyDeath;  
     public AudioClip playerAttack1;
     public AudioClip enemyAttack;   
     public AudioClip hit;
-    public AudioClip jump;
-    //public AudioClip healthPickup;
+    public AudioClip jump;   
     public AudioClip correctButton;
     public AudioClip wrongButton;
     public AudioClip klikButton;

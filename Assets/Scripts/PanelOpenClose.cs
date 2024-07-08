@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class PanelOpenClose : MonoBehaviour
 {
+    AudioManager audioManager;
     public GameObject Panel;
 
     public void OpenClosePanel()
     {
+        
         if (Panel != null)
         {
             bool isActive = Panel.activeSelf;
 
             Panel.SetActive(!isActive);
+            
         }
+        
     }
+
 
     public void TimeActive()
     {
