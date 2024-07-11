@@ -61797,7 +61797,7 @@ MonoBehaviour:
   lockCursor: 1
   mouseSensitivity: 2
   target: {fileID: 6926255114651799546}
-  dstFromTarget: 30
+  dstFromTarget: 20
   pitchMinMax: {x: 25, y: 65}
   rotationSmoothTime: 0.12
 --- !u!64 &5410304747215867841
@@ -69735,7 +69735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 597b20bf60b01f84c9ff0d99b68815e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 6926255114651799546}
 --- !u!114 &6600619953545705158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69748,7 +69748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 597b20bf60b01f84c9ff0d99b68815e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 6926255114651799546}
 --- !u!4 &6604115183734396523
 Transform:
   m_ObjectHideFlags: 0
