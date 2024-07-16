@@ -6,13 +6,23 @@ public class WrongButton : MonoBehaviour
 {
     AudioManager audioManager;
     public GameObject PanelOpen;
+    ChoicesManager choiceManager;
+       
 
+   
     public void OpenPanelOnly()
     {
-        if (PanelOpen != null)
+        if (PanelOpen != null )
         {
-            PanelOpen.SetActive(true);          
-
+            PanelOpen.SetActive(true);            
         }
     }
+
+    public void OnWrongChoiceButtonClicked()
+    {
+        // Simulate a wrong choice
+        choiceManager.MakeChoice(false);
+    }
+
+
 }
