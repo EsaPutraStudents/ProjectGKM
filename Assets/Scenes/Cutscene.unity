@@ -161,8 +161,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: pada suatu hari, ditemukan suatu pulau baru yang didalamnya terdapat reruntuhan
-    kuno.
+  m_text: 'Di sebuah Desa terjadi wabah misterius yang menyerang para warga, dimana
+    wabah ini mengubah warga desa tersebut bertingkah tidak lazim. Menjadi pribadi
+    yang kanibal dan menyerang satu sama lain.
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
   m_sharedMaterial: {fileID: -6375491773353159890, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
@@ -456,8 +460,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: mendengar hal tersebut, seorang arkeolog muda bernama alex dengan segera
-    mengunjungi pulau tersebut untuk memecahkan misteri yang ada disana.
+  m_text: "Sebagian dari mereka yang masih selamat berusaha untuk melindungi diri
+    di dalam Goa. Walaupun pada akhirnya wabah itu tetap menyerang sehingga ikut
+    menular ke semua orang yang berada di Goa tersebut. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
   m_sharedMaterial: {fileID: -6375491773353159890, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
@@ -591,7 +596,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "mampukah alex memecahkan misteri pulau misterius\_tersebut"
+  m_text: "Akibatnya, kehidupan warga Desa menjadi kacau. Semua orang saling menyerang
+    satu sama lain dan hanya tersisa beberapa kanibal saja\_di\_dalam\_gua."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
   m_sharedMaterial: {fileID: -6375491773353159890, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
@@ -824,6 +830,8 @@ PlayableDirector:
     value: {fileID: 1933873249}
   - key: {fileID: -6864945584572733965, guid: f5396306755755f4082b6fcfb0b2af02, type: 2}
     value: {fileID: 2146601393}
+  - key: {fileID: 292924150710243502, guid: f5396306755755f4082b6fcfb0b2af02, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1947428725
