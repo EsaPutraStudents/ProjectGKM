@@ -12181,7 +12181,7 @@ MonoBehaviour:
   mouseSensitivity: 5
   target: {fileID: 6769096365753908765}
   dstFromTarget: 3
-  pitchMinMax: {x: 45, y: 70}
+  pitchMinMax: {x: 25, y: 65}
   rotationSmoothTime: 0.12
 --- !u!1 &594189820369005161
 GameObject:
@@ -12872,8 +12872,8 @@ Camera:
   m_GameObject: {fileID: 1343058621505315539}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -16798,6 +16798,7 @@ MonoBehaviour:
   health: 90
   healthBar: {fileID: 7269150184785587146}
   panel: {fileID: 6383435040038800980}
+  invincibleTime: 1
 --- !u!4 &6458046078186495572
 Transform:
   m_ObjectHideFlags: 0

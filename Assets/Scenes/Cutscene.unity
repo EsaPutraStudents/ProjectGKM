@@ -161,12 +161,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Di sebuah Desa terjadi wabah misterius yang menyerang para warga, dimana
-    wabah ini mengubah warga desa tersebut bertingkah tidak lazim. Menjadi pribadi
-    yang kanibal dan menyerang satu sama lain.
-
-
-'
+  m_text: Pada suatu hari, ditemukan suatu pulau baru yang didalamnya terdapat reruntuhan
+    kuno.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
   m_sharedMaterial: {fileID: -6375491773353159890, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
@@ -460,9 +456,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sebagian dari mereka yang masih selamat berusaha untuk melindungi diri
-    di dalam Goa. Walaupun pada akhirnya wabah itu tetap menyerang sehingga ikut
-    menular ke semua orang yang berada di Goa tersebut. \n"
+  m_text: Mendengar hal tersebut, seorang arkeolog muda bernama Alex dengan segera
+    mengunjungi pulau tersebut untuk memecahkan misteri yang ada disana.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
   m_sharedMaterial: {fileID: -6375491773353159890, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
@@ -596,8 +591,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Akibatnya, kehidupan warga Desa menjadi kacau. Semua orang saling menyerang
-    satu sama lain dan hanya tersisa beberapa kanibal saja\_di\_dalam\_gua."
+  m_text: Mampukah Alex memecahkan misteri pulau misterius tersebut
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
   m_sharedMaterial: {fileID: -6375491773353159890, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
@@ -816,7 +810,7 @@ PlayableDirector:
   m_GameObject: {fileID: 1947428723}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: f5396306755755f4082b6fcfb0b2af02, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 45e5c8bb4dc6ff24f8815af85941011d, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -832,6 +826,24 @@ PlayableDirector:
     value: {fileID: 2146601393}
   - key: {fileID: 292924150710243502, guid: f5396306755755f4082b6fcfb0b2af02, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -6050997360794278221, guid: f5396306755755f4082b6fcfb0b2af02, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 388239175573822198, guid: f5396306755755f4082b6fcfb0b2af02, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4568810470203841486, guid: f5396306755755f4082b6fcfb0b2af02, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5839317215249774896, guid: f5396306755755f4082b6fcfb0b2af02, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2563545619718531532, guid: 45e5c8bb4dc6ff24f8815af85941011d, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7647903664222470780, guid: 45e5c8bb4dc6ff24f8815af85941011d, type: 2}
+    value: {fileID: 751209606}
+  - key: {fileID: 5815863848661794726, guid: 45e5c8bb4dc6ff24f8815af85941011d, type: 2}
+    value: {fileID: 1543091103}
+  - key: {fileID: -3286413163668893455, guid: 45e5c8bb4dc6ff24f8815af85941011d, type: 2}
+    value: {fileID: 1933873249}
+  - key: {fileID: 8503436472364748971, guid: 45e5c8bb4dc6ff24f8815af85941011d, type: 2}
+    value: {fileID: 2146601393}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1947428725
