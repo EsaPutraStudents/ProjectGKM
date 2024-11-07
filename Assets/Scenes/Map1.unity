@@ -6835,7 +6835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ENTER to
+  m_text: SPACE to
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
   m_sharedMaterial: {fileID: -6375491773353159890, guid: f48183583bb6d9d42af8a64722f440ac, type: 2}
@@ -42855,6 +42855,7 @@ MonoBehaviour:
   health: 90
   healthBar: {fileID: 1182446878}
   panel: {fileID: 336517874}
+  invincibleTime: 1
 --- !u!1 &7787453427333242399
 GameObject:
   m_ObjectHideFlags: 0
