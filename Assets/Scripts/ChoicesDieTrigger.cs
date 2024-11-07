@@ -46,7 +46,14 @@ public class ChoicesDieTrigger : MonoBehaviour
 
     private void Die()
     {
+        UnlockMouse();
         panel.SetActive(true);
         Time.timeScale = 0;
+    }
+
+    void UnlockMouse()
+    {
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        UnityEngine.Cursor.visible = true;
     }
 }

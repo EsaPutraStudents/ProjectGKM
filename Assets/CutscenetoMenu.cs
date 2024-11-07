@@ -7,6 +7,12 @@ public class CutscenetoMenu : MonoBehaviour
 {
     private void OnEnable()
     {
+        UnlockMouse();
         UnityEngine.SceneManagement.SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+    }
+    void UnlockMouse()
+    {
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
+        UnityEngine.Cursor.visible = true;
     }
 }
