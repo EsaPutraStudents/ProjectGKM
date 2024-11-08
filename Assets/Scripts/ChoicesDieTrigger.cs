@@ -29,7 +29,17 @@ public class ChoicesDieTrigger : MonoBehaviour
         }
     }
 
-    
+    public void QuizTakeDamage(int damageAmount)
+    {               
+        health -= damageAmount;           
+        
+        if (health <= 0)
+        {
+            Die();
+        }
+
+    }
+
 
     public void TakeDamage(int damageAmount)
     {

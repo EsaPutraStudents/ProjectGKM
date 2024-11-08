@@ -25,7 +25,7 @@ public class ChoicesManager : MonoBehaviour
     {
         if (playerHealth != null)
         {
-            playerHealth.TakeDamage(damageAmount);
+            playerHealth.QuizTakeDamage(damageAmount);
             Debug.Log("Wrong choice! Damage dealt: " + damageAmount);
         }
 
