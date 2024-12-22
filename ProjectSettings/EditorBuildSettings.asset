@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscene 2.unity
     guid: 6efdc1b484b47a542bef8c570f632199
+  - enabled: 1
+    path: Assets/Scenes/Bahan.unity
+    guid: 9a34fba7ae613104d8bbc6ace7e03f2b
   m_configObjects: {}
