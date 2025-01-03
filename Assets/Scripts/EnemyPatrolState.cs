@@ -19,11 +19,11 @@ public class EnemyPatrolState : StateMachineBehaviour
         agent.speed = 3f;
         timer = 0;
         GameObject go = GameObject.FindGameObjectWithTag("WayPoints");
-        foreach (Transform t in go.transform)
+        foreach (Transform t in go.transform) //loop titik tujuan patrol 
         {
             wayPoints.Add(t);
         }
-        agent.SetDestination(wayPoints[Random.Range(0, wayPoints.Count)].position);
+        agent.SetDestination(wayPoints[Random.Range(0, wayPoints.Count)].position); //tujuan akan di random
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

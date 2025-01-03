@@ -8,7 +8,7 @@ using UnityEngine.InputSystem.XR.Haptics;
 
 public class ThirdPersonController : MonoBehaviour
 {
-    AudioManager audioManager;
+    
    //input fields
     private PlayerControls playerControls;
     private InputAction move;
@@ -18,13 +18,14 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private float movementForce = 1f;
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float maxSpeed = 10f;
-    private Vector3 forceDirection = Vector3.zero;
-    public GameObject sword;
+    private Vector3 forceDirection = Vector3.zero;    
 
     [SerializeField]
     private Camera playerCamera;
     private Animator animator;
-    public int damage = 20;
+
+    
+    public GameObject sword;    
 
     private void Awake()
     {
@@ -39,9 +40,7 @@ public class ThirdPersonController : MonoBehaviour
         playerControls.Player.Attack.started += DoAttack;
         move = playerControls.Player.Move;
         playerControls.Player.Enable();
-    }
-
-    
+    }       
 
     private void OnDisable()
     {

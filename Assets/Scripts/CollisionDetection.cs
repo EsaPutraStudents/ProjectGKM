@@ -8,8 +8,8 @@ public class CollisionDetection : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy")
-        {
-            //transform.parent = other.transform;
+        {   
+
             other.GetComponent<Enemy>().TakeDamage(damageAmount);
         }
     }

@@ -9,14 +9,11 @@ public class Sound : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
         {
-
-            walkSound.enabled = true;
-            
+            walkSound.enabled = true;            
         }
         else
         {
             walkSound.enabled = false;
-
         }
 
 

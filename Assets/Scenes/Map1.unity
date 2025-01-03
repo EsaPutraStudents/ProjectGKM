@@ -3223,11 +3223,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementForce: 6
-  jumpForce: 50
+  jumpForce: 65
   maxSpeed: 30
-  sword: {fileID: 1079961037021991008}
   playerCamera: {fileID: 3827474540921575845}
-  damage: 20
+  sword: {fileID: 1079961037021991008}
 --- !u!1 &109725611824160281
 GameObject:
   m_ObjectHideFlags: 0
